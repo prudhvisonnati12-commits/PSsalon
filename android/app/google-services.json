@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1037601533196",
+    "project_id": "mareks-salon-app",
+    "storage_bucket": "mareks-salon-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037601533196:android:aa9a75f70a4516e4992d29",
+        "android_client_info": {
+          "package_name": "com.marekssalon.mareks_salon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwk75-CPSQ_tjVPBXKkFofiAAYf6nV1Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

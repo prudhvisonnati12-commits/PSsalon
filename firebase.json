@@ -1,0 +1,49 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mareks-salon-app",
+          "appId": "1:1037601533196:android:aa9a75f70a4516e4992d29",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "mareks-salon-app",
+          "appId": "1:1037601533196:ios:22e11a4c890b2797992d29",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mareks-salon-app",
+          "configurations": {
+            "android": "1:1037601533196:android:aa9a75f70a4516e4992d29",
+            "ios": "1:1037601533196:ios:22e11a4c890b2797992d29",
+            "web": "1:1037601533196:web:b341d7ce72d7b5ac992d29"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
